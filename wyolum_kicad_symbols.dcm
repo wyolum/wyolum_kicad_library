@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIODE_SCH
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library
