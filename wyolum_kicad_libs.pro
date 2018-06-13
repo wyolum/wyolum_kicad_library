@@ -1,4 +1,4 @@
-update=Tuesday 04 November 2014 09:36:25 PM IST
+update=Sat Apr  2 11:11:19 2016
 version=1
 last_client=kicad
 [cvpcb]
@@ -53,5 +53,8 @@ LibName21=libs/RasPi_RTC2
 LibName22=libs/RowGB_sym
 LibName23=libs/TiNA_sym
 LibName24=libs/TinyTiM_sym
+LibName25=/home/samata/projects-git/mmM/kicad/mmM_Libs/mmM
+LibName26=/home/samata/projects-git/ultim8x8/kicad_8x8_45/ultim8x8_libs/ultim8x8_sym
+LibName27=/home/samata/projects-git/ClockFOUR/KiCad/ClockFOUR_Libs/ClockFOUR
 [general]
 version=1

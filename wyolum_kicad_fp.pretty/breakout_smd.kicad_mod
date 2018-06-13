@@ -1,9 +1,13 @@
-(module breakout_smd (layer F.Cu) (tedit 544CEEF6)
-  (fp_text reference B1 (at 0 -0.508) (layer F.SilkS) hide
+(module breakout_smd (layer F.Cu) (tedit 5B213E1E)
+  (tags "breakout smd testpoint test")
+  (attr smd)
+  (fp_text reference REF** (at 0 -0.6) (layer F.SilkS) hide
+    (effects (font (size 0.25 0.25) (thickness 0.025)))
+  )
+  (fp_text value I/O (at 0 0.6) (layer F.SilkS) hide
     (effects (font (size 0.254 0.254) (thickness 0.0254)))
   )
-  (fp_text value I/O (at 0 0.508) (layer F.SilkS) hide
-    (effects (font (size 0.254 0.254) (thickness 0.0254)))
-  )
+  (fp_circle (center 0 0) (end 0.6 -0.1) (layer F.CrtYd) (width 0.1))
+  (fp_circle (center 0 0) (end 0.6 0) (layer F.Fab) (width 0.1))
   (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
 )
